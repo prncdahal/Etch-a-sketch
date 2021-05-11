@@ -1,0 +1,26 @@
+*,html{
+    padding:0;
+    margin:0;
+}
+
+.container{
+    max-width: 960px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.square{
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    margin: auto;
+    box-sizing: border-box;
+    min-height: 500px;
+    max-width: 500px;
+}
+.square .box{
+   
+    border: 1px solid #666;
+    margin: 0px -1px -1px 0px;
+}
